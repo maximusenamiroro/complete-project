@@ -1,0 +1,16 @@
+#FocusPage{
+    position: relative;
+    width: max-content;
+}
+
+#FocusPage::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background: #fd0581;
+}

@@ -1,0 +1,76 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+.about{
+    width: 100%;
+}
+.about img{
+    height: auto;
+    width: 420px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1{
+    font-size: 80px;
+}
+.about-text h3{
+    font-size: 40px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+span{
+    color: rgb(253, 5, 129);
+}
+.about-text p{
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+}
+button{
+   background: rgb(253, 5, 129);
+   color: #ededed;
+   width: 150px;
+   height: 100%;
+   border: 2px solid transparent;
+   border-radius: 20px;
+   font-size: 19px;
+   text-decoration: none;
+   font-weight: 600;
+   letter-spacing: 0.5px;
+   transition: .4s;
+}
+
+button:hover{
+    background: transparent;
+    border: rgb(253, 5, 129);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 680px){
+    .main{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }    
+    .about img{
+        height: auto;
+        width: 420px;
+    }
+    
+}
+
+
+
+
+
+
+
