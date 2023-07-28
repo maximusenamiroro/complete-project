@@ -20,11 +20,9 @@ const About = () => {
                 </div>
 
            <Link to="/contact">
-                <a href="">
                     <button className="l p-3 my-5 rounded-lg bg-[#fd0581]">
                         Let's Talk
                     </button>
-                </a>
                 </Link>
             </div>
             

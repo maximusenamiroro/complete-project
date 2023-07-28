@@ -22,25 +22,26 @@ const Home = () => {
                         </p>
 
                         <div className="btn-box">
-                            <a href='mailto:perpetualobuamu@gmail.com'>Hire me</a>
+                          <Link to="mailto:perpetualobuamu@gmail.com">Hire me</Link>
 
                         <Link to="/contact">
-                            <a href="#">Let's talk</a>
+Let's talk
                             </Link>
                         </div>
                         <div className="home-sci  socials items-center border-t border-t-[#ffffff40] md:w-max md:border-t-0 w-[90vw] pt-5 md:pt-0 mb-10 md:mb-0 mt-auto flex gap-4 md:ml-10 md:mt-0">
                         {/* <div className="mr-5 md:hidden font-light text-sm">Socials</div> */}
-                        <a href="https://github.com/Perpetual25"><div className="w-[30px] h-[30px] rounded-full border-2 border-white duration-75 hover:border-[#fd0581]">
+                       <Link to="https://github.com/Perpetual25"><div className="w-[30px] h-[30px] rounded-full border-2 border-white duration-75 hover:border-[#fd0581]">
                         <img src={github} alt="github" className="home-sci" />
-                        </div></a>
-                        <a href="https://twitter.com/Perpie__"><div className="w-[30px] h-[30px] rounded-full border-2 border-white duration-75 hover:border-[#fd0581]">
+                        </div></Link>
+
+                       <Link to=" https://twitter.com/Perpie__"><div className="w-[30px] h-[30px] rounded-full border-2 border-white duration-75 hover:border-[#fd0581]">
                         <img src={twitter} alt="" className="home-sci" />
 
-                            </div></a>
-                        <a href="linkedin.com/in/perpetual-obu-amu-815446156"><div className="w-[30px] h-[30px] rounded-full border-2 border-white duration-75 hover:border-[#fd0581]">
+                            </div></Link>
+                                        <Link to="linkedin.com/in/perpetual-obu-amu-815446156"><div className="w-[30px] h-[30px] rounded-full border-2 border-white duration-75 hover:border-[#fd0581]">
                         <img src={linkedin} alt="" className="home-sci" />
 
-                            </div></a>
+                            </div></Link>
                     </div>
 
                     </div>
