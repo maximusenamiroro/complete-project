@@ -1,4 +1,4 @@
-import Sidepic from "../assets/Images/sidepic.jpeg";
+import Sidepic from "../assets/Images/sidepic.jpg";
 import HTML from '../assets/Images/HTML.png'
 import CSS from '../assets/Images/CSS.png'
 import Javascript from '../assets/Images/Javascript.jpg'
