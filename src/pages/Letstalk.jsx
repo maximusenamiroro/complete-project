@@ -11,7 +11,7 @@ import Handshake from '../assets/images/shaking.jpg';
                         <div className="flex flex-wrap xl:mx-auto xl:container">
                             <div className="w-full relative lg:w-1/2 xl:mt-10 mb-10 2xl:pr-24 2xl:pl-0 xl:pl-12 pl-0 ">
                                 <div className="backgrou h-full w-full xl:w-1/2 absolute inset-0 bg-cover bg-center xl:hidden"></div>
-                                <div className="w-full flex flex-col items-start  xl:justify-start  relative z-20 xl:px-0 px-4 xl:py-0 py-4">
+                                <div className="w-full flex flex-col items-start  xl:justify-start z-20 xl:px-0 px-4 xl:py-0 py-4">
                                     <div className="w-full 2xl:pl-48 xl:pt-1">
                                         <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold tracking-wider text-gray-800">My Contact Details</h1>
                                         <div className="w-full md:w-10/12 mt-3">
